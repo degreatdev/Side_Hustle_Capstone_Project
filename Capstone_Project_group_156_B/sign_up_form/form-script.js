@@ -18,7 +18,7 @@ form.addEventListener('submit', e => {
         counter.innerText = count;
         count++
 
-        if (count > 5) location.replace('./sample.html');
+        if (count > 5) location.replace('./index.html');
     },1000)
 
     
