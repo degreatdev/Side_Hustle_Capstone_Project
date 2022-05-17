@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.page-bg{
+    background-position: 50%;
+	width: 198rem;
+    height: 20rem;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    
+}
+
+#lin-grad{
+    width: 198rem;
+    height: 86rem;
+    background-image: linear-gradient(#262626b6, rgba(72, 192, 248, 0.315));
+    margin-top: -10%;
+    background-size: cover;
+}
+
+
+.page-dis{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color: rgb(0, 0, 0);
+    /*border: 10px solid black;*/
+    padding: 10%;
+    gap: 0rem;
+    justify-content: space-between;
+    margin-top: -43%;
+    margin-left: -45%;
+}
+
+
+.welcome{
+    color: aliceblue;
+    font-size: 7rem;
+    font-weight: 700;
+    text-shadow:
+    20px 20px 20px rgba(0, 0, 0, 0.089);
+    transition: 0.75s ease;
+}
+
+.dva{
+    margin-left: 0%;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow:
+    20px 20px 20px rgba(0, 0, 0, 0.089);
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    margin-top: 1.3%;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background-color: #0cbbb2ee;
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow:
+    0px 2px 20px rgba(0, 0, 0, 0.11);
+}
+
+
+@media(max-width:1150px){
+    .page-bg{
+        width: auto;
+        height: 28rem;
+        background-image: url(./woman.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-top: 0%;
+        padding-bottom: 26%;
+        
+    }
+    
+    #lin-grad{
+        width: auto;
+        height: 73rem;
+        background-image: linear-gradient(#262626b6, rgba(72, 192, 248, 0.315));
+        margin-top: -10%;
+        background-size: cover;
+    }
+    
+    
+    .page-dis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        /*border: 10px solid black;*/
+        padding: 10%;
+        gap: 0.9rem;
+        justify-content: space-between;
+        margin-top: -284%;
+        margin-left: -45%;
+    }
+    
+    
+    .welcome{
+        color: aliceblue;
+        font-size: 2.3rem;
+        font-weight: 700;
+        margin-left: 36%;
+        text-shadow:
+        20px 20px 20px rgba(0, 0, 0, 0.089);
+        transition: 0.75s ease;
+    }
+    
+    .dva{
+        margin-left: 35%;
+        color: aliceblue;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-shadow:
+        20px 20px 20px rgba(0, 0, 0, 0.089);
+    }
+
+    button{
+        width: 120px;
+        height: 40px;
+        margin-right: -35%;
+        margin-top: 8%;
+        border-radius: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: #0cbbb2ee;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        box-shadow:
+        0px 2px 20px rgba(0, 0, 0, 0.11);
+    }
+    
+
+}
