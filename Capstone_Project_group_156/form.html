@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="./assets/style.css"/>--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400&family=Raleway&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style type="text/css">
+        #ui{
+            background-color:  rgb(33, 10, 54); 
+            padding: 40px;
+            margin-top: 10%;
+            color: aliceblue;
+            border-radius: 50px;
+            border: none;
+            box-shadow:
+    2px 20px 20px rgba(0, 0, 0, 0.212);
+        }
+        body{
+            background-color: rgb(255, 223, 253);
+            
+            
+            
+        }
+
+        label{
+            font-size: 20px;
+            padding-bottom: 1%;
+        }
+        h2{
+            font-size: 2.5rem;
+            margin-top: -2%;
+            margin-bottom: 3%;
+            
+        }
+
+        input{
+            border-radius: 0;
+            border: none;
+        }
+
+        #input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            margin-top: 2%;
+        }
+
+        #sub{
+            width: 150px;
+            border: none;
+        }
+
+        #rest{
+            width: 150px;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+        
+        
+        <div class="container col-sm-12">
+
+            <div class="row">
+
+                <div class="col-lg-3"></div>
+
+                <div class="col-lg-6">
+                    <div id="ui">
+                        <form class="form-group">
+                            <h2>Sign Up</h2>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control" placeholder="Enter your Username"/>
+                                </div>
+
+                            </div>
+                            <br>
+                            <label>E-mail</label>
+                            <input type="email" class="form-control" placeholder="Enter your Email"/>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" placeholder="Enter your Password"/>
+                                </div>
+                            
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Confirm Password</label>
+                                    <input type="password" class="form-control" placeholder="Confirm Password"/>
+                                </div>
+
+                            </div>
+                            <br>
+                            <select class="form-control">
+                                <option>Choose Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                            <br>
+                            <div id="input">
+                           
+                            <input type="submit" id="sub" value="Submit" class="btn btn-primary btn-block btn-lg"/>
+                           
+                            
+                            <input type="reset" id="rest" value="Reset" class="btn btn-primary btn-block btn-lg"/>
+                            </div>
+                            
+
+                           
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"></div>
+
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       <!--
+        <form>
+            <div class="signInForm">
+                <div class="user">
+                    <label for="Username">Username</label>
+                <input type="text" class="usernameBox" placeholder="Enter Username"/>
+                </div>
+    
+                <div class="email">
+                    <label for="email">Email</label>
+                <input type="email" class="emailBox" placeholder="Enter Email"/>
+                </div>
+    
+                <div class="password">
+                    <label for="password">Password</label>
+                <input type="password" class="passwordBox" placeholder="Enter Password"/>
+                </div>
+    
+                <div class="passwordcom">
+                    <label for="passwordcom">Confirm Password</label>
+                <input type="password" class="passwordBox" placeholder="Confirm Password"/>
+                </div>
+    
+                <div class="gender">
+                    <label for="gender">Gender</label>
+                <input type="radio" class="genderBox" placeholder=""/>
+                <label for="gender">Male</label>
+                <input type="radio" class="genderBox" placeholder=""/>
+                <label for="gender">Female</label>
+                </div>
+                
+                <div class="reset">
+                    <button type="reset"> Reset </button>
+                </div>
+
+                <div class="submit">
+                    <button type="submit"> Submit </button>
+                </div>
+        </form>
+       --> 
+       
+        
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
